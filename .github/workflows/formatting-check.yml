@@ -1,6 +1,7 @@
 name: Formatting check
 
 on:
+  workflow_dispatch:
   pull_request:
     branches: ["*"]
 
